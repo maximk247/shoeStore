@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/checkPhone.js" defer></script>
+    <script src="js/calcPriceAndDelivery.js" defer></script>
+    <script src="js/toggleCart.js" defer></script>
+    <script src="js/counter.js" defer></script>
+    <script src="js/cart.js" defer></script>
+    <link rel="shortcut icon" href="img/logo/shoe-sneaker.svg" type="image/x-icon">
+    <title>Sneaker shop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="img/logo/Shoe 09.png" width="200" alt="">
+            <div class="display">Доставка кроссовок</div>
+            <p class="lead">Быстро и дешёво</p>
+        </div>
+    </header>
+
+    <div class="container body">
+        <div class="row">
+            <div class="col-first-level">
+                <div class="row">
+                    <!--Кроссовок-->
+                    <div class="col-sneaker">
+                        <div class="card" data-id="01">
+                            <img class="product-img" src="img/shoes/1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="item-title">Мужские кроссовки Salomon Alphacross 4</h4>
+                                <p><small data-item-in-box class="text-muted">1 шт.</small></p>
+
+                                <div class="details-wrapper">
+                                    <div class="items counter-wrapper">
+                                        <div class="items-control" data-action="minus">-</div>
+                                        <div class="items-current" data-counter>1</div>
+                                        <div class="items-control" data-action="plus">+</div>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-size">40</div>
+                                        <div class="price-currency">7 400 ₽</div>
+                                    </div>
+                                </div>
+
+                                <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Кроссовок-->
+
+                    <!--Кроссовок-->
+                    <div class="col-sneaker">
+                        <div class="card" data-id="02">
+                            <img class="product-img" src="img/shoes/2.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="item-title">Мужские кроссовки Salomon Supercross 4</h4>
+                                <p><small data-item-in-box class="text-muted">1 шт.</small></p>
+
+                                <div class="details-wrapper">
+                                    <div class="items counter-wrapper">
+                                        <div class="items-control" data-action="minus">-</div>
+                                        <div class="items-current" data-counter>1</div>
+                                        <div class="items-control" data-action="plus">+</div>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-size">39</div>
+                                        <div class="price-currency">8 000 ₽</div>
+                                    </div>
+                                </div>
+
+                                <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Кроссовок-->
+
+                    <!--Кроссовок-->
+                    <div class="col-sneaker">
+                        <div class="card" data-id="03">
+                            <img class="product-img" src="img/shoes/3.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="item-title">Мужские кроссовки Salomon Supercross 4</h4>
+                                <p><small data-item-in-box class="text-muted">1 шт.</small></p>
+
+                                <div class="details-wrapper">
+                                    <div class="items counter-wrapper">
+                                        <div class="items-control" data-action="minus">-</div>
+                                        <div class="items-current" data-counter>1</div>
+                                        <div class="items-control" data-action="plus">+</div>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-size">42</div>
+                                        <div class="price-currency">8 250 ₽</div>
+                                    </div>
+                                </div>
+
+                                <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Кроссовок-->
+
+                    <!--Кроссовок-->
+                    <div class="col-sneaker">
+                        <div class="card" data-id="04">
+                            <img class="product-img" src="img/shoes/4.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="item-title">Мужские кроссовки Salomon Alphacross 4</h4>
+                                <p><small data-item-in-box class="text-muted">1 шт.</small></p>
+
+                                <div class="details-wrapper">
+                                    <div class="items counter-wrapper">
+                                        <div class="items-control" data-action="minus">-</div>
+                                        <div class="items-current" data-counter>1</div>
+                                        <div class="items-control" data-action="plus">+</div>
+                                    </div>
+
+                                    <div class="price">
+                                        <div class="price-size">41</div>
+                                        <div class="price-currency">7 500 ₽</div>
+                                    </div>
+                                </div>
+
+                                <button data-cart type="button" class="btn btn-block btn-outline-warning">Добавить в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Кроссовок-->
+                </div>
+            </div>
+
+
+            <div class="col-second-level">
+                <div class="card cart">
+                    <div class="card-body">
+                        <h5 class="card-title">Ваш заказ</h5>
+                        <div data-cart-empty class="alert" role="alert">
+                            Корзина пуста
+                        </div>
+                        <div class="cart-wrapper">
+
+                        </div>
+
+                        <div class="cart-total">
+                            <p data-delivery><span class="h5">Доставка:</span> <span class="delivery-cost free">бесплатно</span></p>
+                            <p><span class="h5">Итого:</span> <span class="total-price">0</span> <span class="rouble">₽</span></p>
+                        </div>
+
+                        <div id="order-form" class="card-body-result border-top">
+                            <h5 class="card-title">Оформить заказ</h5>
+                            <form  id="mainForm" onsubmit="return false;">
+                                <div class="form-group">
+                                    <p id="message" class="message"></p>
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Ваш номер телефона">
+                                    <input type="submit" class="submit" onclick="ValidPhone()" value="Проверить">
+                                </div>
+                                <button class="btn-delivery" type="submit">Заказать</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
